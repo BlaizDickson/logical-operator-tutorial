@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Switch excercise</title>
+</head>
+<body>
+    <script>
+        // Set the student's grade
+// const grade = 87;
+let grade = parseInt(prompt('Enter a number: '));
+
+switch (true) {
+	// If score is 90 or greater
+	case grade >= 90:
+		alert("A");
+		break;
+	// If score is 80 or greater
+	case grade >= 80:
+		alert("B");
+		break;
+	// If score is 70 or greater
+	case grade >= 70:
+		alert("C");
+		break;
+	// If score is 60 or greater
+	case grade >= 60:
+		alert("D");
+		break;
+	// Anything 59 or below is failing
+	default:
+		alert("F");
+}
+    </script>
+</body>
+</html>
